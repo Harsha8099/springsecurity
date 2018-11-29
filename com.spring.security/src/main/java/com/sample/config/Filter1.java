@@ -14,9 +14,12 @@ import org.springframework.stereotype.Component;
 public class Filter1 implements javax.servlet.Filter {
 
 	@Override
-	public void destroy() {
+		public void destroy() {
+
 		System.out.println("From Destory");
+		System.out.println("From Dest");
 	}
+
 
 	@Override
 	public void doFilter(ServletRequest arg0, ServletResponse arg1, FilterChain arg2)
